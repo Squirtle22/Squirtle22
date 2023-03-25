@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -35,6 +36,7 @@
 
     </header>
     <main>
+        <div class="container">
         <h3>Contact form:</h3>
         <p>Hello! My name is Deanna Keel, and I am a Junior Developer with years of passion.
             <br>
@@ -47,24 +49,53 @@
             Thank you for your consideration, and I look forward to hearing from you soon!
         </p>
 
+        <div class="contact">
+        <form class="contact_form" id="contact_form">
+            <div class="input_list">
+                <ul>
+                    <li>
+                        <input id="name" type="text"
+                        placeholder="Name *" required>
+                    </li>
+                    <li>
+                        <input id="email" type="text"
+                        placeholder="Email *" required>
+                    </li>
+                    <li>
+                        <input id="phone" type="text"
+                        placeholder="Phone (optional)">
+                    </li>
+                    <li>
+                        <input id="topic" type="text"
+                        placeholder="Topic *" required>
+                    </li>
+                    <li class="full">
+                        <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </li>
+                    <li class="full">
+                        <div class="mw300">
+                            <a id="send_message" href="#" class="metaportal_fn_button full">
+                                <span>Send Message</span>
+                            </a>
+                        </div>
+                    </li>
 
-        <form id="contact-form">
-            <Label>Name</Label>
-            <input type="text" name="name">
-            <label>Email</label>
-            <input type="text" name="email">
-            <label>Contact Number</label>
-            <input type="text" name="contact_number">
-            <label>Message</label>
-            <textarea name="message" cols="30" rows="10"></textarea>
-            <input type="submit" value="send">
-        </form>
+                </ul>
+            </div>
+                
+               </form>
+        </div>
+        </div>
 
 
     </main>
 
 
     <Footer>
+        <ul>
+            <li><a href="https://linkedin.com/in/deanna-keel-431690269" class="social linkedin">LinkedIn</a></li>
+            <li><a href="https://github.com/squirtle22" class="social github">Github</a></li>
+          </ul>
         <p>&copy;2023 Deanna Keel</p>
     </Footer>
     <script src="./assets/js/email.js">
