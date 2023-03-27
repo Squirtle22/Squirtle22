@@ -4,20 +4,13 @@
 
 .contact {
   list-style-type: none;
-  display: flex;
   margin: 0 0 0 -40px;
   flex-wrap: wrap;
-}
 
-.contact input[type="text"] {
-  height: 80px;
-  padding: 0 27px;
 }
 
 .contact input[type="text"],
 .contact textarea {
-  width: 100%;
-  min-width: 100%;
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: 5px;
   background-color: transparent !important;
@@ -30,13 +23,7 @@
   border-color: var(--mc1);
 }
 
-.contact li {
-  width: 50%;
-  padding-left: 40px;
-  margin-bottom: 40px;
-}
+.contact [input_list] {
 
-.contact li.full {
-  width: 100%;
 }
 
