@@ -37,47 +37,49 @@
     </header>
     <main>
         <div class="container">
-        <h3>Contact form:</h3>
-        <p>Hello! My name is Deanna Keel, and I am a Junior Developer with years of passion.
-            <br>
-            I am eager to take on new challenges and contribute to innovative projects in the tech industry.
-            <br>
-            If you are interested in learning more about my skills and experience, please feel free to contact me.
-            <br>
-            I would be happy to answer any questions you may have and discuss potential opportunities to work together.
-            <br>
-            Thank you for your consideration, and I look forward to hearing from you soon!
-        </p>
+            <h3>Contact form:</h3>
+            <p>Hello! My name is Deanna Keel, and I am a Junior Developer with years of passion.
+                <br>
+                I am eager to take on new challenges and contribute to innovative projects in the tech industry.
+                <br>
+                If you are interested in learning more about my skills and experience, please feel free to contact me.
+                <br>
+                I would be happy to answer any questions you may have and discuss potential opportunities to work
+                together.
+                <br>
+                Thank you for your consideration, and I look forward to hearing from you soon!
+            </p>
 
-        <div class="contact">
-        <form class="contact_form" id="contact_form">
-            <div class="input_list">
-                    <div class="left">
-                        <input id="name" type="text"
-                        placeholder="Name *" required>
-                        <input id="email" type="text"
-                        placeholder="Email *" required>
+            <div class="contact_form">
+                <form class="contact_form" id="contact_form">
+                    <div class="input_list">
+                        <ul>
+                            <li>
+                                <input class="input" id="name" type="text" placeholder="Name *" required>
+                            </li>
+                            <li>
+                                <input class="input" id="email" type="text" placeholder="Email *" required>
+                            </li>
+                            <li>
+                                <input class="input" id="phone" type="text" placeholder="Phone (optional)">
+                            </li>
+                            <li>
+                                <input class="input" id="topic" type="text" placeholder="Topic *" required>
+                            </li>
+                            <li class="full">
+                                <textarea id="message" placeholder="Message"></textarea>
+                            </li>
+                            <li class="full">
+                                <div class="mw300">
+                                    <button id="send_message" class="squirtle_button full " type="submit">
+                                            <span>Send Message</span>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="right">
-                        <input id="phone" type="text"
-                        placeholder="Phone (optional)">
-                        <input id="topic" type="text"
-                        placeholder="Topic *" required>
-                    </div>
-                    <div class="full">
-                        <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="full">
-                        <div class="mw300">
-                            <a id="send_message" href="#" class="metaportal_fn_button full">
-                                <span>Send Message</span>
-                            </a>
-                        </div>
-                    </div>
+                </form>
             </div>
-                
-               </form>
-        </div>
         </div>
 
 
@@ -88,7 +90,7 @@
         <ul>
             <li><a href="https://linkedin.com/in/deanna-keel-431690269" class="social linkedin">LinkedIn</a></li>
             <li><a href="https://github.com/squirtle22" class="social github">Github</a></li>
-          </ul>
+        </ul>
         <p>&copy;2023 Deanna Keel</p>
     </Footer>
     <script src="./assets/js/email.js">
