@@ -1,63 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Squirtle's Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/home.css">
-   <link rel="stylesheet" href="./assets/css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Squirtle Portfolio</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Css Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/home.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/header.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/projects.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/404page.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/about.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/photos.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/projects.css" type="text/css">
+
+
+  </head>
   <body>
-
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Deanna keel</li>
-          <li><a href="#top">Home</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./aboutMe.html">About Me</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+    <header class="header">
+      <a href="/" class="header-logo">@squirtle22</a>
+      <nav class="nav">
+        <div class="toggle"><i class="fas fa-bars"></i></div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact">Contact</a>
+          </li>
         </ul>
-    </div>
-
-    <header>
-      <img src="./assets/images/Me.jpg" alt="Drawing of Deanna Keel" class="profile-image">
-      <h1 class="tag name">Hello, I'm Deanna.</h1>
-      <p class="tag location">I live in Salisbury, United Kingdom.</p>
+      </nav>
     </header>
 
-    <main class="flex">
-      <div class="card1">
-        <h2>About Me</h2>
-        <p>As a junior web developer, I am just starting out in the exciting world of web development. I have a passion for creating responsive and visually appealing builds that provide a seamless user experience on any device.</p>
-
-          <p>completing my web development training, I am now well-versed in HTML, CSS, and JavaScript, and I am eager to continue learning and growing in the field. My goal is to create stunning and engaging websites that push the boundaries of what is possible in web development.</p>
-          
-          <p>I have a natural curiosity and a keen eye for design, which drives me to constantly seek out new ideas and techniques to improve my work. Whether I am working independently or as part of a team, I am committed to delivering high-quality work that meets and exceeds client expectations.</p>
-          
-          <p>Overall, I am a passionate and driven junior web developer who is excited to make my mark in the industry and take on new challenges along the way.</p>
-        
-      </div> 
-
-      <div class="card2">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
-        </ul>
-        <p>I'd like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
-
+    <main class="main-container home-section">
+      <section id="home">
+        <div class="landing-page-details">
+          <h1 class="small-tiltle">Hi,</h1>
+          <h2 class="big-title">
+            I'm <span class="my-name pink">Deanna</span>
+          </h2>
+          <h3 class="medium-title">
+            <em>Junior WebDeveloper and cyber security enthusiast</em>
+          </h3>
+        </div>
+        <div class="art-me">
+          <img
+            src="./assets/img/me-icon.gif"
+            alt="icon of me and hunter. art credits to @wynn.draws"
+          />
+        </div>
+        <div class="landing-page-details">
+          <ul>
+            <li class="social-link">
+              <a
+                href="https://linkedin.com/in/squirtle"
+                aria-label="Linkedin"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="social-link">
+              <a
+                href="https://github.com/squirtle22"
+                aria-label="GitHub"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="social-link">
+              <a
+                href="https://instagram.com/deedee009"
+                aria-label="Instagram"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="projects" id="select-projects">
+        <h2>Select Projects</h2>
+        <p class="section-discription">
+          Here are some personal projects i have worked on.<br>
+          you can find more on <a class="hyperlink" href="https://github.com/squirtle22">GitHub</a>
+        </p>
+        <div class="cta-container">
+          <a href="/projects" class="cta">
+            <img src="assets/img/coding.svg" alt="Code Icon" />
+            <span>Explore More</span>
+          </a>
+        </div>
+      </section>
     </main>
-    <footer>
-      <ul>
-        <li><a href="https://linkedin.com/in/deanna-keel-431690269" class="social linkedin">LinkedIn</a></li>
-        <li><a href="https://github.com/squirtle22" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2023, Deanna keel</p>
+
+    <footer class="footer-container">
+      <div class="footer">
+        <div class="footer-column">
+          <a href="/" class="footer-logo">@squirtle22</a>
+        </div>
+        <div class="social">
+          <ul>
+            <li class="social-link">
+              <a
+                href="https://linkedin.com/in/squirtle"
+                aria-label="Linkedin"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="social-link">
+              <a
+                href="https://github.com/squirtle22"
+                aria-label="GitHub"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="social-link">
+              <a
+                href="https://instagram.com/deedee009"
+                aria-label="Instagram"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <span class="coppyright"
+          ><i class="fa-regular fa-copyright"></i> Deanna keel 2023</span
+        >
+      </div>
+      <div class="footer-column">
+        <a href="/about" class="footer-button">
+          <img src="assets/img/smile.svg" alt="Smile Icon">
+          About
+        </a>
+        <a href="/projects" class="footer-button">
+          <img src="assets/img/coding.svg" alt="Code Icon">
+          Projects
+        </a>
+      </div>
+      <div class="footer-column">
+        <a href="https://futurejones.co.uk/" class="footer-button">
+          <img src="assets/img/camera.svg" alt="Camara Icon">
+          Wedding
+        </a>
+        <a href="mailto:admin@squirtle22.co.uk" class="footer-button">
+          <img src="assets/img/email.svg" alt="Email Icon">
+          Contact
+        </a>
+      </div>
+    </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
